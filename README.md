@@ -1,5 +1,8 @@
 Action Script and Instructions for connecting HCP to an external MapR cluster
 
+#Prerequisites
+FS Mounted named "mapr" <-- This is not a hard requirement, but you will have to update the action script.  The last 3 lines.
+
 # Update the script before running
 In maprtech.repo, set MapR release and MEP version the external cluster is running
 ```
